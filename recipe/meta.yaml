@@ -1,5 +1,5 @@
 {% set name = "mcap" %}
-{% set version = "1.3.1" %}
+{% set version = "1.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mcap-{{ version }}.tar.gz
-  sha256: 2878879a786021aa7f7f36319276396a778717ccd013b2191fe94d37572d7551
+  sha256: 0528e2f86a61bfec73779e0628e6cf27af83d01d89e20b27d5ec9f0b556a63ac
 
 build:
   noarch: python
