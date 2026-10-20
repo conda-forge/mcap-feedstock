@@ -1,5 +1,5 @@
 {% set name = "mcap" %}
-{% set version = "1.5.0" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/mcap-{{ version }}.tar.gz
-  sha256: 9c385cc5e5a6bccff4aa0c6814b305faa2c3239ece46778661eaa6d809b1768a
+  sha256: d9aa1d9706ada964740536c7598b735a5aab677493d52c2be59fbd7467ec5664
 
 build:
   noarch: python
